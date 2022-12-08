@@ -14,8 +14,6 @@
 ###   a) dataLake.ipynb : This file contains all development steps on a small subset of the dataset for quick debugging and trial of code 
 ###   b) dl.cfg : This file contains parameters used for our IAM role to access S3 bucket, we load it in our script using [ConfigParser](https://docs.python.org/3/library/configparser.html) 
 ###   c) etl.py : This script automates the ETL process, then the data processing, then writing it back to S3, it should be run from the terminal 
-###   d) data : This folder contains the small subset of data used in dataLake.ipynb
-###   e) data_parquet : This folder contains the written parquet tables form the dataLake.ipynb
 
 
 ## 4) Conclusion
